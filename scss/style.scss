@@ -1,16 +1,155 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // write your css here
-#wrapper{
-    display: flex;
-    #sidebar{
-        width: 14rem!important;
-        height: 100vh;
-    }
 
-    #content-wrapper{
-        background-color: #f8f9fc;
-        width: 100%;
-        overflow-x: hidden;
+body {
+  font-family: "Lato", sans-serif;
+}
+#wrapper {
+  display: flex;
+  #sidebar {
+    width: 14rem !important;
+    height: 100vh;
+    background-color: greenyellow;
+  }
+
+  #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+.list-group-flush {
+  background-color: white;
+
+  a {
+    background-color: #fff;
+    border: none;
+  }
+}
+.search-bar {
+  input {
+    border-radius: 3rem;
+    width: 30%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-right: 1rem;
+  }
+
+  div {
+    color: #222f72;
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+}
+.container-div {
+  h4 {
+    color: #222f72;
+  }
+  button {
+    background-color: #407bff;
+    border: none;
+    padding: 0.3rem 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  button:hover {
+    background-color: #222f72;
+  }
+}
+.header-debit-card-1 {
+  .card {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border-radius: 0.4rem;
+  }
+
+  h3 {
+    color: #222f72;
+    font-size: 1.3rem;
+  }
+  p {
+    color: #afafaf;
+    font-size: 0.8rem;
+  }
+}
+.right-debit-card {
+  .card {
+    margin-top: 1rem;
+    border: none;
+    margin-right: 0.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.4rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.7rem;
+    color: #afafaf;
+  }
+  span {
+    color: #8fe5cc;
+  }
+}
+.table-1 {
+  padding: 2rem;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+  border-radius: 0.4rem;
+  table {
+  }
+  thead {
+    padding-top: 1rem;
+    background-color: #407bff;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+  }
+  tbody th {
+    color: #61ff70;
+  }
+  tbody td {
+    color: #afafaf;
+  }
+  button {
+    background-color: #407bff;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem 2rem;
+  }
+
+  svg {
+    margin-top: 5px;
+    margin-right: 4px;
+  }
+}
+.right-details-card {
+  padding: 1rem;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  h4 {
+    font-size: 1.2rem;
+  }
+  .detail span {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+  .col-md-6 {
+    font-size: 0.9rem;
+    span {
+      font-size: 0.6rem;
     }
+  }
 }
