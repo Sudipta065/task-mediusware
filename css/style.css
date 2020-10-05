@@ -7274,3 +7274,57 @@ body {
     font-size: 0.9rem; }
     .right-details-card .col-md-6 span {
       font-size: 0.6rem; }
+
+.billing {
+  padding: 1rem;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 1rem; }
+  .billing h6 {
+    color: #afafaf; }
+  .billing .div {
+    color: #afafaf; }
+
+.table-2 {
+  padding: 0.2rem;
+  background-color: #fff;
+  padding: 0.4rem 0.2rem;
+  margin: 1rem 1rem;
+  border-radius: 0.4rem; }
+  .table-2 thead {
+    padding-top: 1rem;
+    background-color: #407bff;
+    color: #fff;
+    border: none;
+    border-radius: 1rem; }
+  .table-2 tbody th {
+    color: #61ff70; }
+  .table-2 tbody td {
+    color: #afafaf; }
+  .table-2 button {
+    color: #407bff;
+    background-color: #f0f5ff;
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem 2rem; }
+  .table-2 svg {
+    margin-top: 5px;
+    margin-right: 4px; }
+  .table-2 .due {
+    color: #ff7e77; }
+    .table-2 .due th {
+      color: #eab5b5; }
+    .table-2 .due td {
+      color: #eab5b5; }
+    .table-2 .due button {
+      color: #ff7e77;
+      background-color: #fff0f0; }
+    .table-2 .due .pay {
+      background-color: #407bff;
+      color: #fff; }
+    .table-2 .due .voice .invoice {
+      background-color: #407bff; }
+
+.voice .invoice {
+  background-color: #407bff;
+  color: #fff; }

@@ -153,3 +153,81 @@ body {
     }
   }
 }
+
+.billing {
+  padding: 1rem;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 1rem;
+
+  h6 {
+    color: #afafaf;
+  }
+  .div {
+    color: #afafaf;
+  }
+}
+.table-2 {
+  padding: 0.2rem;
+  background-color: #fff;
+  padding: 0.4rem 0.2rem;
+  margin: 1rem 1rem;
+  border-radius: 0.4rem;
+  table {
+  }
+
+  thead {
+    padding-top: 1rem;
+    background-color: #407bff;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    th {
+    }
+  }
+  tbody th {
+    color: #61ff70;
+  }
+  tbody td {
+    color: #afafaf;
+  }
+  button {
+    color: #407bff;
+    background-color: #f0f5ff;
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem 2rem;
+  }
+
+  svg {
+    margin-top: 5px;
+    margin-right: 4px;
+  }
+
+  .due {
+    color: #ff7e77;
+
+    th {
+      color: #eab5b5;
+    }
+    td {
+      color: #eab5b5;
+    }
+    button {
+      color: #ff7e77;
+      background-color: #fff0f0;
+    }
+    .pay {
+      background-color: #407bff;
+      color: #fff;
+    }
+
+    .voice .invoice {
+      background-color: #407bff;
+    }
+  }
+}
+.voice .invoice {
+  background-color: #407bff;
+  color: #fff;
+}
